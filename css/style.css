@@ -1,0 +1,60 @@
+.bannerbg{
+	background-image: url('../img/pic1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bannerbg h2{
+	font-size: 60px;
+
+}
+/*----------------------------------------------------------------*/
+.section2 p{
+
+	font-size: 20px;
+	font-weight: bolder;
+	color: #4e73c5;
+
+}
+.section2 p::before{
+	content:'{';
+	color: red;
+}
+.section2 p::after{
+	content:'}';
+	color: red;
+}
+
+.margin-left{
+	margin-left: -180px;
+}
+/*------------------------------------------------------------------*/
+.section4{
+	background-image:  url('../img/modulebg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*--------------------------------------------------------------------*/
+.im3{
+	background-image:  url('../img/intrvwbg.jpg');
+}
+.im4{
+	background-image:  url('../img/testsbg.jpg');
+}
+/*------------------------------------------------------------------------*/
+@media only screen and (max-width: 576px){
+
+     .vh-60{
+     	height: auto;
+     }
+     .bannerbg{
+	    background-image: url('../img/pic1.jpg');
+	    background-repeat: no-repeat;
+	    
+	
+    }
+   
+   .bannerbg h2{
+	font-size: 60px;
+
+    }
+}
